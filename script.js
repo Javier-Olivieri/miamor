@@ -5,7 +5,7 @@ document.getElementById('heart').addEventListener('click', function() {
 
 document.getElementById('btn').addEventListener('click', function() {
     Swal.fire({
-        title: '¡Te amo demasiado!',el 
+        title: '¡Te amo demasiado!',
         html: '<span style="font-size: 50px;color: red;">&#10084;</span>', // Corazón
         confirmButtonText: 'Cerrar'
     });
